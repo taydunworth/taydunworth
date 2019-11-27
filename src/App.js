@@ -17,10 +17,10 @@ function App() {
         <h1 className="sr-only">Hello.</h1>
         <p>You caught me while I'm reworking my portfolio! In the meantime, reach me via one of the channels below:</p>
         <ul className="flex-list">
-          <li><a href="https://dribbble.com/tayloracox" target="_blank"><FontAwesomeIcon icon={faDribbble} /></a></li>
+          <li><a href="https://dribbble.com/taydunworth" target="_blank"><FontAwesomeIcon icon={faDribbble} /></a></li>
           <li><a href="https://instagram.com/taylorintheteacups" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a></li>
-          <li><a href="https://linkedin.com/in/tayloracox" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-          <li><a href="https://github.com/tayloracox" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
+          <li><a href="https://linkedin.com/in/taydunworth" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+          <li><a href="https://github.com/taydunworth" target="_blank"><FontAwesomeIcon icon={faGithub} /></a></li>
           <li><a href="mailto:taydunworth@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
         </ul>
       </main>
