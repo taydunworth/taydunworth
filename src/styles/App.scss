@@ -122,6 +122,18 @@
           display: none;
         }
       }
+
+      a {
+        &:hover {
+          .social-icon {
+            transform: translateX(3px);
+          }
+        }
+
+        .social-icon {
+          transition: transform .3s ease-in-out;
+        }
+      }
     }
   }
   
