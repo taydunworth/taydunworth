@@ -14,6 +14,17 @@
     height: 10vh;
   }
 
+  h1 {
+    font-family: 'ChaiteaExtraBold';
+
+    &#intro-heading {
+      font-size: 12em;
+      letter-spacing: 5px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
   h2 {
     text-transform: lowercase;
     font-weight: 100;
@@ -23,21 +34,45 @@
     color: $fountain;
     font-weight: 700;
     text-decoration: none;
-    transition: .3s ease-in-out all;
+    transition: all .3s ease-in-out;
   
     &:hover {
       color: darken( $fountain, 20% );
+    }
+
+    &.learn-more {
+      text-transform: lowercase;
+      letter-spacing: 1px;
+
+      &:hover {
+        .learn-more-arrow {
+          transform: translateX(10px);
+        }
+      }
+
+      .learn-more-arrow {
+        position: relative;
+        top: 3px;
+        font-size: 1.25em;
+        transition: transform .3s ease-in-out;
+      }
     }
   }
   
   main {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 50px 0 50px 100px;
   
     section {
       padding-top: 30px;
+    }
+
+    p {
+      &#intro-p {
+        font-size: 1.5em;
+        margin: 10px 0;
+      }
     }
   }
   
