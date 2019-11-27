@@ -3,14 +3,14 @@
 .App {
   background: url('../images/bg.jpg') repeat;
   height: calc(100vh - 100px);
-  padding: 50px 100px;
+  padding: 50px 0 50px 100px;
   background-color: $lilywhite;
 
   @media only screen and (max-width: 600px) {
     padding: 50px;
   }
 
-  .App-logo {
+  .logo {
     height: 10vh;
   }
 
@@ -58,11 +58,43 @@
       }
     }
   }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    nav {
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+
+        @media only screen and (max-width: 775px) {
+          display: none;
+        }
+
+        &:after {
+          content: "";
+          display: block;
+          width: 90px;
+          height: 2px;
+          background-color: $fountain;
+          margin-top: 12px;
+        }
+      }
+    }
+  }
   
   main {
     display: flex;
     flex-direction: column;
     padding: 50px 0 50px 100px;
+
+    @media only screen and (max-width: 600px) {
+      padding: 50px 0;
+    }
   
     section {
       padding-top: 30px;
@@ -115,7 +147,7 @@
         display: block;
         width: 2px;
         height: 90px;
-        background-color: #1F8DA6;
+        background-color: $fountain;
         margin: 0px auto;
   
         @media only screen and (max-width: 600px) {
