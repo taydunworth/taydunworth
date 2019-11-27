@@ -3,7 +3,7 @@ import hello from '../images/hello.svg';
 import Header from './Header';
 import About from './About';
 import SocialLinks from './SocialLinks';
-import '../styles/App.css';
+import '../styles/App.scss';
 
 function App() {
   return (
