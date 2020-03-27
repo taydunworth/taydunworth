@@ -8,9 +8,21 @@ function Projects() {
         <h2>Selected Projects</h2>
         <p>Case studies showcasing the highlights of my career</p>
         <ul>
-            <li>Item One</li>
-            <li>Item Two</li>
-            <li>Item Three</li>
+            <li>
+                <div id="project-one">
+                    <h3>Item One</h3>
+                </div>
+            </li>
+            <li>
+                <div id="project-two">
+                    <h3>Item Two</h3>
+                </div>
+            </li>
+            <li>
+                <div id="project-three">
+                    <h3>Item Three</h3>
+                </div>
+            </li>
         </ul>
         </article>
 
