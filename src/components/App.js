@@ -1,19 +1,24 @@
 import React from 'react';
 import Header from './Header';
-import SocialLinks from './SocialLinks';
+import About from './About';
+import Projects from './Projects';
+import Buzzwords from './Buzzwords';
+import CommunityInvolvement from './CommunityInvolvement';
+import Speaking from './Speaking';
 import '../styles/App.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
-        <h1 id="intro-heading">Hello,</h1>
-        <p id="intro-p">I design and build user interfaces and experiences.</p>
-        <a className="learn-more" aria-label="Learn more about Tay Dunworth">Learn More <FontAwesomeIcon icon={faLongArrowAltRight} className="learn-more-arrow" aria-hidden="true" /></a>
-        <SocialLinks />
+        <h1 id="intro-heading">UI/UX Designer + Front-End Developer</h1>
+        <a href="mailto:taydunworth@gmail.com" rel="noopener noreferrer" class="btn">Let's connect via email</a>
+        <About />
+        <Projects />
+        <Buzzwords />
+        <CommunityInvolvement />
+        <Speaking />
       </main>
     </div>
   );
