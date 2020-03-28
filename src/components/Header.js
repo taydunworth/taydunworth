@@ -43,16 +43,19 @@ class Header extends Component {
         <nav aria-label="Main navigation">
           <ul>
             <li>
-              <Link to="/about">projects</Link>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <Link to="/about">speaking</Link>
+              <a href="#buzzwords">Buzzwords</a>
             </li>
             <li>
-              <Link to="/about">community</Link>
+              <a href="#speaking">Speaking</a>
             </li>
             <li>
-              <Link to="/about">resume</Link>
+              <a href="#community">Community</a>
+            </li>
+            <li>
+              <a href="#resume">Resume</a>
             </li>
           </ul>
         </nav>

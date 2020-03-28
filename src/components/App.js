@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <div class="jumbotron">
-          <h1 class="highlight" id="intro-heading">UI/UX Designer + Front-End Developer</h1>
-          <a href="mailto:taydunworth@gmail.com" rel="noopener noreferrer" class="btn">Let's connect via email</a>
+        <div className="jumbotron">
+          <h1 className="highlight" id="intro-heading">UI/UX Designer + Front-End Developer</h1>
+          <a href="mailto:taydunworth@gmail.com" rel="noopener noreferrer" className="btn">Let's connect via email</a>
         </div>
         <About />
         <Projects />

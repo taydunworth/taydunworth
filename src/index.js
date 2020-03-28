@@ -2,14 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
-import About from './components/About';
+import RJnet from './components/RJnet';
+import RJA from './components/RJA';
+import Tombstone from './components/Tombstone';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
     <Router>
         <Route exact path="/" component={App} />
-        <Route path="/about" component={About} />
+        <Route path="/rjnet" component={RJnet} />
+        <Route path="/rja" component={RJA} />
+        <Route path="/tombstone" component={Tombstone} />
     </Router>
   )
 

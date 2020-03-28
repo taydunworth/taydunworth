@@ -8,9 +8,9 @@ function Buzzwords() {
         <div class="filter-tool" aria-role="">
             <p>filter by:</p>
             <ul>
-                <li class="software">Software</li>
-                <li class="development">Development</li>
-                <li class="etc">Etc.</li>
+                <li class="software">software</li>
+                <li class="development">development</li>
+                <li class="etc">etc.</li>
             </ul>
         </div>
         <ul>

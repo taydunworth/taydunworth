@@ -25,11 +25,7 @@
     font-style: normal;
     color: $blackpearl;
     text-decoration: none;
-    transition: all .3s ease-in-out;
-  
-    &:hover {
-      color: darken( $blackpearl, 100% );
-    }
+    transition: border .1s ease-in-out;
   }
 
   .btn {
@@ -37,14 +33,36 @@
     color: #fff;
     text-transform: uppercase;
     padding: 12px 25px 10px 25px;
+    transition: background-color .3s ease-in-out;
 
     &:hover {
-      color: darken( $lilywhite, 10% );
+      background-color: #080e0e;
+    }
+  }
+
+  p, ul {
+
+    a {
+
+      &:hover {
+        padding-bottom: 6px;
+        border-bottom: 3px solid $blackpearl;
+  
+        .arrow-icon {
+          transform: translateX(3px);
+        }
+      }
+  
+      .arrow-icon {
+        padding-left: 5px;
+        transition: transform .3s ease-in-out;
+      }
     }
   }
 
   .highlight {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, $lilywhite 65%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 50%, $botticelli 50%);
+    display: inline;
   }
 
   header {
@@ -74,6 +92,8 @@
         a {
           color: #fff;
           font-size: 16px;
+          border: none;
+
           &:hover {
             .social-icon {
               transform: translateY(3px);
@@ -104,7 +124,7 @@
           list-style: none;
           display: flex;
           justify-content: space-between;
-          width: 400px;
+          width: 500px;
   
           a {
             text-transform: uppercase;
@@ -120,6 +140,14 @@
 
   main {
     margin: 175px 50px 50px 50px;
+
+    .breadcrumbs {
+      font-size: .8em;
+
+      .arrow-icon {
+        padding: 0 15px;
+      }
+    }
 
     .jumbotron {
       background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1334&q=80');
@@ -144,7 +172,7 @@
       }
 
       & > * {
-        z-index: 100;
+        z-index: 2;
       }
     }
 
@@ -168,15 +196,14 @@
     }
 
     #projects {
-      
-      article {
+
+      #case-studies {
 
         ul {
           display: flex;
           justify-content: space-between;
           align-items: center;
           width: 100%;
-
           li {
             width: 30%;
             height: 350px;
@@ -188,6 +215,26 @@
               flex-direction: column;
               align-items: center;
               justify-content: center;
+              position: relative;
+
+              & > * {
+                z-index: 2;
+              }
+
+              a {
+                width: 80%;
+              }
+
+              &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(255,255,255,.8);
+                z-index: 1;
+              }
 
               &#project-one {
                 background-image: url('https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80');
@@ -203,6 +250,34 @@
                 background-image: url('https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
                 background-size: cover;
               }
+            }
+          }
+        }
+      }
+
+      #additional-work {
+        background-image: url('../images/bg-splotch.jpg');
+        background-size: cover;
+        height: 200px;
+        text-align: center;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-self: center;
+        margin: 30px -50px 0 -50px;
+
+        ul {
+          display: flex;
+          justify-content: space-between;
+          text-align: left;
+          align-items: center;
+
+          li {
+            width: 30%;
+
+            a {
+              text-transform: uppercase;
             }
           }
         }
@@ -285,6 +360,12 @@
 
     a {
       color: #fff;
+      transition: border .1s ease-in-out;
+
+      &:hover {
+        padding-bottom: 6px;
+        border-bottom: 3px solid #ffffff !important;
+      }
     }
   }
   
