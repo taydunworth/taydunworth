@@ -1,7 +1,7 @@
 @import "./variables";
 
 .App {
-  
+
   h1 {
     font-family: p22-underground, sans-serif;
     font-weight: 100;
@@ -65,12 +65,27 @@
     display: inline;
   }
 
+  .anchor{
+    display: block;
+    height: 125px;
+    margin-top: -125px;
+    visibility: hidden;
+  }
+
   header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 9999;
+
+    #mobile-nav-open {
+      display: none;
+
+      @media only screen and (max-width: 775px) {
+        display: block;
+      }
+    }
 
     .social-list-container {
       background-color: $blackpearl;
@@ -88,6 +103,10 @@
         padding: 0;
         margin: 0;
         width: 15%;
+
+        @media only screen and (max-width: 775px) {
+          width: 100%;
+        }
 
         a {
           color: #fff;
@@ -111,7 +130,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #fff;;
+      flex-wrap: wrap;
+      background-color: #fff;
       box-shadow: 0px 4px 20px rgba(0,0,0,.1);
       padding: 15px 30px;
 
@@ -119,7 +139,50 @@
         width: 100px;
       }
 
+      a {
+
+        @media only screen and (max-width: 775px) {
+          width: 85%;
+        }
+      }
+
+      #mobile-nav-open, #mobile-nav-close {
+          width: 15%;
+      }
+
+      #mobile-nav-open, #mobile-nav-close {
+        display: none;
+        color: #222;
+        font-size: 2rem;
+      }
+
+      #mobile-nav-open {
+
+        @media only screen and (max-width: 775px) {
+          display: inline-block;
+          cursor: pointer;
+        }
+      }
+
+      &.mobile-active {
+
+        #mobile-nav-open {
+          display: none;
+        }
+
+        #mobile-nav-close {
+          display: inline-block;
+          cursor: pointer;
+        }
+
+      }
+
       nav {
+
+        @media only screen and (max-width: 775px) {
+          flex: 2;
+        }
+
         ul {
           list-style: none;
           display: flex;
@@ -131,7 +194,21 @@
           }
   
           @media only screen and (max-width: 775px) {
-            display: none;
+            &.collapsed {
+              display: none;
+            }
+        
+            &.is-expanded {
+              display: block;
+              font-size: 2em;
+              padding-left: 0;
+              height: 75vh;
+
+              li {
+                padding-bottom: 20px;
+
+              }
+            }
           }
         }
       }
@@ -204,6 +281,7 @@
           justify-content: space-between;
           align-items: center;
           width: 100%;
+
           li {
             width: 30%;
             height: 350px;
@@ -221,7 +299,7 @@
                 z-index: 2;
               }
 
-              a {
+              h3 {
                 width: 80%;
               }
 

@@ -6,30 +6,30 @@ import { Link } from "react-router-dom";
 
 function Projects() {
   return (
-    <section id="projects">
+    <section class="projects">
         <article id="case-studies">
         <h2>Professional Projects</h2>
         <ul>
             <li>
-                <div id="project-one">
-                    <Link to="/rjnet">
+                <Link to="/rjnet">
+                    <div id="project-one">
                         <h3 className="highlight">RJnet Intranet Redesign</h3>
-                    </Link>
-                </div>
+                    </div>
+                </Link>
             </li>
             <li>
-                <div id="project-two">
-                    <Link to="/rja">
+                <Link to="/rja">
+                    <div id="project-two">
                         <h3 className="highlight">Raymond James and Associates Branch Websites</h3>
-                    </Link> 
-                </div>
+                    </div>
+                </Link>
             </li>
             <li>
-                <div id="project-three">
-                    <Link to="/tombstone">
+                <Link to="/tombstone">
+                    <div id="project-three">
                         <h3 className="highlight">Raymond James Financial Tombstone Redesign</h3>
-                    </Link>
-                </div>
+                    </div>
+                </Link>
             </li>
         </ul>
         </article>

@@ -4,7 +4,7 @@ import '../styles/App.scss';
 function Speaking() {
   return (
     <section id="speaking">
-      <h2>Community Involvement</h2>
+      <h2>Speaking</h2>
       <ul>
         <li><strong>Intro to XAML and Xamarin.Forms</strong> – Hosted by Suncoast Developers Guild</li>
         <li><strong>Intro to Crash Courses and Public Speaking</strong> – Hosted by Suncoast Developers Guild</li>

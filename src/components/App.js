@@ -17,10 +17,14 @@ function App() {
           <h1 className="highlight" id="intro-heading">UI/UX Designer + Front-End Developer</h1>
           <a href="mailto:taydunworth@gmail.com" rel="noopener noreferrer" className="btn">Let's connect via email</a>
         </div>
+        <span class="anchor" id="about-section" aria-hidden="true"></span>
         <About />
-        <Projects />
+        {/* <Projects /> */}
+        <span class="anchor" id="buzzwords-section" aria-hidden="true"></span>
         <Buzzwords />
+        <span class="anchor" id="community-section" aria-hidden="true"></span>
         <CommunityInvolvement />
+        <span class="anchor" id="speaking-section" aria-hidden="true"></span>
         <Speaking />
       </main>
       <Footer />

@@ -1,12 +1,31 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import logo from '../images/logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDribbble, faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 class Header extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isExpanded: false
+    };
+  }
+
+  handleToggle(e) {
+    e.preventDefault();
+    this.setState({
+      isExpanded: !this.state.isExpanded
+    });
+  }
+
   render() {
+    const { isExpanded } = this.state;
+
     return (
     <header className="header">
       <div class="social-list-container" role="navigation" aria-label="Social profiles">
@@ -38,25 +57,27 @@ class Header extends Component {
           </li>
         </ul>
       </div>
-      <div id="main-nav">
+      <div id="main-nav" className={`${isExpanded ? "mobile-active" : ""}`}>
         <Link to="/" aria-label="Tay Dunworth's site home page"><img src={logo} className="logo" alt="Tay Dunworth logo" /></Link>
+        <FontAwesomeIcon icon={faBars} aria-hidden="true" id="mobile-nav-open" onClick={e => this.handleToggle(e)} />
+        <FontAwesomeIcon icon={faTimes} aria-hidden="true" id="mobile-nav-close" onClick={e => this.handleToggle(e)} />
         <nav aria-label="Main navigation">
-          <ul>
+          <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#about-section">About</a>
             </li>
             <li>
-              <a href="#buzzwords">Buzzwords</a>
+              <a href="#buzzwords-section">Buzzwords</a>
             </li>
             <li>
-              <a href="#speaking">Speaking</a>
+              <a href="#community-section">Community</a>
             </li>
             <li>
-              <a href="#community">Community</a>
+              <a href="#speaking-section">Speaking</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#resume">Resume</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
