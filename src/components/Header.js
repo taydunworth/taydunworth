@@ -67,6 +67,9 @@ class Header extends Component {
               <a href="#about-section">About</a>
             </li>
             <li>
+              <a href="#projects-section">Projects</a>
+            </li>
+            <li>
               <a href="#buzzwords-section">Buzzwords</a>
             </li>
             <li>
@@ -75,9 +78,9 @@ class Header extends Component {
             <li>
               <a href="#speaking-section">Speaking</a>
             </li>
-            {/* <li>
+            <li>
               <a href="#resume">Resume</a>
-            </li> */}
+            </li>
           </ul>
         </nav>
       </div>

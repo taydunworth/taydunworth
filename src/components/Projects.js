@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Projects() {
   return (
-    <section class="projects">
+    <section id="projects">
         <article id="case-studies">
         <h2>Professional Projects</h2>
         <ul>

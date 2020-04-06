@@ -19,7 +19,8 @@ function App() {
         </div>
         <span class="anchor" id="about-section" aria-hidden="true"></span>
         <About />
-        {/* <Projects /> */}
+        <span class="anchor" id="projects-section" aria-hidden="true"></span>
+        <Projects />
         <span class="anchor" id="buzzwords-section" aria-hidden="true"></span>
         <Buzzwords />
         <span class="anchor" id="community-section" aria-hidden="true"></span>
