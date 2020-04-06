@@ -23,6 +23,9 @@ function Tombstone() {
             <p>Within the financial industry, tombstones act as trophies for advisors and firms to showcase to their transactions. RaymondJames.com features thousands of digital tombstones on its website, and the process of creating tombstones was inefficient and designed with an outdated style. The marketing department at Raymond James requested a sleeker design and an improved process for creation.</p>
 
             <h2>My Role</h2>
+            <p>UI/UX Designer</p>
+
+            <h2>The Process</h2>
             <p>I worked directly with two account managers to develop a plan for how to improve the creation process and overall visual appeal of the tombstones. Included in this, I documented each possible variation of current tombstones for both the Capital Markets and Public Finance divisions of Raymond James. For example, it was found, in some cases, that the division might want to include up to three company logos or choose to list if the transaction occurred across international borders.</p>
             <p>When all variations were documented, I designed wireframes for each of these showcasing the expected layouts. Once approved by the account managers and clients, I translated the wireframes into high-fidelity mockups.</p>
             <p>Aside from the design of the tombstone, we needed to determine a new process for the tombstones to be built. In the current process, the design team within the marketing department would spend up to 30 minutes designing each tombstone. On average, a design job would include making up to 30 tombstones. On the high end, a designer might be required to design 70. With a smaller staff, this process was holding back the designers from tackling larger, more innovative projects.</p>

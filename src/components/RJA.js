@@ -19,12 +19,15 @@ function RJA() {
             Raymond James and Associates Branch Websites
         </p>
         <h1>Raymond James and Associates Branch Websites</h1>
-        <p>Within Raymond James and Associates, there are over 500 branches in need of a web presence. While many of the branches have websites, they were all built as static pages using non-reusable components and in a variety of styles that were inconsistent with the Raymond James brand.</p>
+        <p>Within Raymond James and Associates, there are over 500 branches in need of a web presence. While many of the branches have websites, they were all initially built as static webpages using non-reusable components and in a variety of styles that were inconsistent with the Raymond James brand.</p>
 
         <h2>Summary of Project</h2>
-        <p>As the company grew and increased the number of websites that needed built, the existing process proved to be inefficient and out of touch with modern technological capabilities. This project served as the blueprint for moving all of the branch websites from static properties to the content management system Sitecore. From a client-facing perspective, the goal was to provide the branches with unique websites that represent their location while still providing guard rails that keep the style of each site consistent.</p>
+        <p>As Raymond James and Associates grew and increased the number of branch websites that needed built, the existing site creation process proved to be inefficient and out of touch with modern technological capabilities. This project served as the blueprint for moving all of the branch websites from static properties to the company's chosen content management system, Sitecore. From a client-facing perspective, the goal was to provide the branches with unique websites that represent their location while still providing guard rails to keep the style of each site consistent with the Raymond James brand.</p>
 
         <h2>My Role</h2>
+        <p>UI/UX Designer</p>
+
+        <h2>The Process</h2>
         <p>I was fortunate to be highly involved in each phase of this project – the initial planning, design, and build. The team I collaborated with consisted of an account manager, digital strategy manager, creative director, copywriter, business analyst, infrastructure architect, back-end developer, and front-end developer.</p>
         <p>Initially, I worked with an account manager to determine personas for each of the types of branch owners and their specific content needs. From there, we decided upon a list of components that would be available to the branches.</p>
         <p>Once the components were decided upon, I worked with the digital strategy manager to determine user journeys and appropriate sitemaps for each persona.</p>
