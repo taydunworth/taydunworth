@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from '../images/logo.svg';
+import pdf from '../images/TayDunworth-Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDribbble, faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -79,7 +80,7 @@ class Header extends Component {
               <a href="./#speaking-section">Speaking</a>
             </li>
             <li>
-              <a href="#resume">Resume</a>
+            <a href={pdf} target="_blank">Resume</a>
             </li>
           </ul>
         </nav>
