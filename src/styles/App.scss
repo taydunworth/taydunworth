@@ -181,10 +181,15 @@
       }
 
       .mobile-nav-icons {
-        background-color: #fff;
-        text-align: center;
-        width: 100%;
-        padding: 10px 0;
+        display: none;
+        
+        @media only screen and (max-width: 775px) {
+          display: block;
+          background-color: #fff;
+          text-align: center;
+          width: 100%;
+          padding: 10px 0 20px 0;
+        }
       }
 
       nav {
@@ -234,7 +239,7 @@
 
       #mobile-nav-open, #mobile-nav-close {
           width: 15%;
-          padding-top: 30px;
+          padding-top: 10px;
       }
 
       #mobile-nav-open, #mobile-nav-close {
