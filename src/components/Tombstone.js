@@ -1,7 +1,9 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import ScrollToTop from './ScrollToTop';
 import '../styles/App.scss';
+import TombstoneUI from '../images/Tombstone-UI.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
@@ -9,6 +11,7 @@ import { Link } from "react-router-dom";
 function Tombstone() {
   return (
     <div className="App">
+        <ScrollToTop />
         <Header />
         <main>
             <p className="breadcrumbs">
@@ -19,8 +22,15 @@ function Tombstone() {
                 Raymond James Financial Tombstone Redesign
             </p>
             <h1>Raymond James Financial Tombstone Redesign</h1>
+
             <h2>Summary of Project</h2>
             <p>Within the financial industry, tombstones act as trophies for advisors and firms to showcase to their transactions. RaymondJames.com features thousands of digital tombstones on its website, and the process of creating tombstones was inefficient and designed with an outdated style. The marketing department at Raymond James requested a sleeker design and an improved process for creation.</p>
+
+            <div className="case-study-image">
+                <h2>Visual Sample</h2>
+                <img src={ TombstoneUI } alt="Tombstone UI Mockup" />
+                <caption>Sample of tombstone interface varieties</caption>
+            </div>
 
             <h2>My Role</h2>
             <p>UI/UX Designer</p>

@@ -6,7 +6,7 @@ function Buzzwords() {
     <section id="buzzwords">
         <h2>Buzzwords</h2>
         <div class="filter-tool" aria-role="">
-            {/* <p>filter by:</p> */}
+            <p>filter by:</p>
             <ul>
                 <li class="software">software</li>
                 <li class="development">development</li>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import ScrollToTop from './ScrollToTop';
 import '../styles/App.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
@@ -9,6 +10,7 @@ import { Link } from "react-router-dom";
 function RJnet() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Header />
       <main>
         <p className="breadcrumbs">

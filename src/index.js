@@ -9,13 +9,13 @@ import { Route, BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-    <Router>
-        <Route exact path="/" component={App} />
-        <Route path="/rjnet" component={RJnet} />
-        <Route path="/rja" component={RJA} />
-        <Route path="/tombstone" component={Tombstone} />
-    </Router>
-  )
+  <Router>
+      <Route exact path="/" component={App} />
+      <Route path="/rjnet" component={RJnet} />
+      <Route path="/rja" component={RJA} />
+      <Route path="/tombstone" component={Tombstone} />
+  </Router>
+);
 
 ReactDOM.render(routing, document.getElementById('root'));
 
