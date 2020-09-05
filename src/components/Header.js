@@ -81,8 +81,10 @@ class Header extends Component {
           <Link to="/" aria-label="Taylor Dunworth's site home page"><img src={mainLogo} id="main-logo" alt="Taylor Dunworth logo" /></Link>
           <Link to="/" aria-label="Taylor Dunworth's site home page"><img src={horizontalLogo} id="horizontal-logo" alt="Taylor Dunworth logo" /></Link>
         </div>
-        <FontAwesomeIcon icon={faBars} aria-hidden="true" id="mobile-nav-open" onClick={e => this.handleToggle(e)} />
-        <FontAwesomeIcon icon={faTimes} aria-hidden="true" id="mobile-nav-close" onClick={e => this.handleToggle(e)} />
+        <div class="mobile-nav-icons">
+          <FontAwesomeIcon icon={faBars} aria-hidden="true" id="mobile-nav-open" onClick={e => this.handleToggle(e)} />
+          <FontAwesomeIcon icon={faTimes} aria-hidden="true" id="mobile-nav-close" onClick={e => this.handleToggle(e)} />
+        </div>
         <nav aria-label="Main navigation">
           <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
             <li>
