@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a469233.chunk.css",
-    "main.js": "/static/js/main.c8a82dbc.chunk.js",
-    "main.js.map": "/static/js/main.c8a82dbc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.618bdaf2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.618bdaf2.js.map",
-    "static/js/2.a166c5e5.chunk.js": "/static/js/2.a166c5e5.chunk.js",
-    "static/js/2.a166c5e5.chunk.js.map": "/static/js/2.a166c5e5.chunk.js.map",
+    "main.css": "/static/css/main.2489bd32.chunk.css",
+    "main.js": "/static/js/main.c2c42664.chunk.js",
+    "main.js.map": "/static/js/main.c2c42664.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e7f4df2b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e7f4df2b.js.map",
+    "static/js/2.bf0f6807.chunk.js": "/static/js/2.bf0f6807.chunk.js",
+    "static/js/2.bf0f6807.chunk.js.map": "/static/js/2.bf0f6807.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6bac0c55a6012923f930e4d854e5c39f.js": "/precache-manifest.6bac0c55a6012923f930e4d854e5c39f.js",
+    "precache-manifest.bc2f97a77770f403acf2b1e57e771d7f.js": "/precache-manifest.bc2f97a77770f403acf2b1e57e771d7f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4a469233.chunk.css.map": "/static/css/main.4a469233.chunk.css.map",
-    "static/media/App.scss": "/static/media/bg-splotch.42f97198.jpg",
-    "static/media/logo.svg": "/static/media/logo.c1ebade0.svg"
+    "static/css/main.2489bd32.chunk.css.map": "/static/css/main.2489bd32.chunk.css.map",
+    "static/media/Taylor-Dunworth-Headshot.png": "/static/media/Taylor-Dunworth-Headshot.6b0e6add.png",
+    "static/media/TaylorDunworth-Resume.pdf": "/static/media/TaylorDunworth-Resume.7b1f2e17.pdf",
+    "static/media/Tombstone-UI.png": "/static/media/Tombstone-UI.545df3e6.png",
+    "static/media/taylor-dunworth-logo-horizontal.svg": "/static/media/taylor-dunworth-logo-horizontal.bde88fde.svg",
+    "static/media/taylor-dunworth-logo.svg": "/static/media/taylor-dunworth-logo.01720593.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.618bdaf2.js",
-    "static/js/2.a166c5e5.chunk.js",
-    "static/css/main.4a469233.chunk.css",
-    "static/js/main.c8a82dbc.chunk.js"
+    "static/js/runtime-main.e7f4df2b.js",
+    "static/js/2.bf0f6807.chunk.js",
+    "static/css/main.2489bd32.chunk.css",
+    "static/js/main.c2c42664.chunk.js"
   ]
 }
