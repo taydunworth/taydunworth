@@ -70,7 +70,7 @@
   }
 
   .highlight {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 70%, #D1E3E8 70%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 70%, $icyblue 70%);
     display: inline;
   }
 
@@ -111,7 +111,7 @@
     }
 
     .social-list-container {
-      background-color: #C16A4B;
+      background-color: $spicedginger;
       width: calc(100% - 60px);
       height: 30px;
       padding: 5px 30px;
@@ -155,7 +155,7 @@
       align-items: center;
 
       #upper-nav {
-        background-color: #F9F8F6;
+        background-color: $offwhite;
         width: 100%;
         padding: 30px;
 
@@ -193,7 +193,7 @@
       }
 
       nav {
-        background-color: #ffffff;
+        background-color: #fff;
         width: 100%;
 
         @media only screen and (max-width: 775px) {
@@ -244,7 +244,7 @@
 
       #mobile-nav-open, #mobile-nav-close {
         display: none;
-        color: #222;
+        color: $blackpearl;
         font-size: 2rem;
       }
 
@@ -438,6 +438,13 @@
                 z-index: 1;
               }
 
+              &:hover {
+                &::before {
+                  background-color: rgba(209,227,232,.8);
+                  transition: .4s background-color ease-in-out;
+                }
+              }
+
               &#project-one {
                 background-image: url('https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80');
                 background-size: cover;
@@ -506,21 +513,21 @@
           &.software {
 
             &::before {
-              background-color: #C16A4B;
+              background-color: $spicedginger;
             }
           }
 
           &.development {
 
             &::before {
-              background-color: #DDA126;
+              background-color: $ochre;
             }
           }
 
           &.etc {
 
             &::before {
-              background-color: #B4D1D8;
+              background-color: $arcticblue;
             }
           }
         }
@@ -553,7 +560,7 @@
   /* START: Footer */
 
   footer {
-    background-color: #C16A4B;
+    background-color: $spicedginger;
     width: calc(100% - 60px);
     padding: 5px 30px;
     text-align: center;
@@ -565,7 +572,7 @@
 
       &:hover {
         padding-bottom: 6px;
-        border-bottom: 3px solid #ffffff !important;
+        border-bottom: 3px solid #fff !important;
       }
     }
   }
