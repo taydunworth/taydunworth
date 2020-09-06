@@ -12,31 +12,17 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 class Header extends Component {
 
-  componentDidMount() {
-    const mainLogo = ('#main-logo');
-    const horizontalLogo = ('#horizontal-logo');
-
-    $(window).scroll(function () {
-        const topOfWindow = $(window).scrollTop();
-        if (topOfWindow) {
-            $(mainLogo).addClass("show-logo");
-            $(horizontalLogo).addClass("hide-logo");
-        } else {
-            $(mainLogo).addClass("hide-logo");
-            $(horizontalLogo).addClass("show-logo");
-        }
-    });
-  }
-
   constructor(props) {
     super(props);
     this.state = {
       isExpanded: false
     };
+
+    this.handleToggle = this.handleToggle.bind(this);
   }
 
   handleToggle(e) {
-    e.preventDefault();
+    // e.preventDefault();
     this.setState({
       isExpanded: !this.state.isExpanded
     });
@@ -81,20 +67,20 @@ class Header extends Component {
           <Link to="/" aria-label="Taylor Dunworth's site home page"><img src={mainLogo} id="main-logo" alt="Taylor Dunworth logo" /></Link>
           <Link to="/" aria-label="Taylor Dunworth's site home page"><img src={horizontalLogo} id="horizontal-logo" alt="Taylor Dunworth logo" /></Link>
         </div>
-        <div class="mobile-nav-icons">
+        <div className="mobile-nav-icons">
           <FontAwesomeIcon icon={faBars} aria-hidden="true" id="mobile-nav-open" onClick={e => this.handleToggle(e)} />
           <FontAwesomeIcon icon={faTimes} aria-hidden="true" id="mobile-nav-close" onClick={e => this.handleToggle(e)} />
         </div>
         <nav aria-label="Main navigation">
           <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
             <li>
-              <a href="./#about">About</a>
+              <a href="./#about" onClick={this.handleToggle}>About</a>
             </li>
             <li>
-              <a href="./#projects">Projects</a>
+              <a href="./#projects" onClick={this.handleToggle}>Projects</a>
             </li>
             <li>
-              <a href="./#community">Community</a>
+              <a href="./#community" onClick={this.handleToggle}>Community</a>
             </li>
             <li>
               <a href={pdf} target="_blank">Resume</a>
