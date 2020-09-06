@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.3e2cc3c8.chunk.css",
-    "main.js": "/static/js/main.a888deac.chunk.js",
-    "main.js.map": "/static/js/main.a888deac.chunk.js.map",
+    "main.js": "/static/js/main.c069a9c4.chunk.js",
+    "main.js.map": "/static/js/main.c069a9c4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e7f4df2b.js",
     "runtime-main.js.map": "/static/js/runtime-main.e7f4df2b.js.map",
-    "static/js/2.bf0f6807.chunk.js": "/static/js/2.bf0f6807.chunk.js",
-    "static/js/2.bf0f6807.chunk.js.map": "/static/js/2.bf0f6807.chunk.js.map",
+    "static/js/2.55ab5579.chunk.js": "/static/js/2.55ab5579.chunk.js",
+    "static/js/2.55ab5579.chunk.js.map": "/static/js/2.55ab5579.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b8da77130b2d6b71f6099ba1d2cad6e7.js": "/precache-manifest.b8da77130b2d6b71f6099ba1d2cad6e7.js",
+    "precache-manifest.6768118bee79a23d7c935be34fc8e364.js": "/precache-manifest.6768118bee79a23d7c935be34fc8e364.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.3e2cc3c8.chunk.css.map": "/static/css/main.3e2cc3c8.chunk.css.map",
     "static/media/Taylor-Dunworth-Headshot.png": "/static/media/Taylor-Dunworth-Headshot.6b0e6add.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e7f4df2b.js",
-    "static/js/2.bf0f6807.chunk.js",
+    "static/js/2.55ab5579.chunk.js",
     "static/css/main.3e2cc3c8.chunk.css",
-    "static/js/main.a888deac.chunk.js"
+    "static/js/main.c069a9c4.chunk.js"
   ]
 }
