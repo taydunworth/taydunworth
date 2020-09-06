@@ -5,7 +5,7 @@ function Buzzwords() {
   return (
     <section id="buzzwords">
         <h2>Buzzwords</h2>
-        <div class="filter-tool" aria-role="">
+        <div class="filter-tool">
             <p>filter by:</p>
             <ul>
                 <li class="software">software</li>

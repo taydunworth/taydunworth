@@ -8460,6 +8460,11 @@ react-app-polyfill@^1.0.4:
     regenerator-runtime "0.13.3"
     whatwg-fetch "3.0.0"
 
+react-codepen-prefill-embed@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-codepen-prefill-embed/-/react-codepen-prefill-embed-0.0.2.tgz#da7cf5a8ee4f7175b48d9755eb095c77cf60ac4c"
+  integrity sha512-gMXxxyLO5vW/IP7lPro3/T25eK5HNoNl7wjau29+Yuq3wGdpVIaUPkzNI0D/oHQ2i8ezL/pIyWNh7crXZWvXNg==
+
 react-dev-utils@^9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-9.1.0.tgz#3ad2bb8848a32319d760d0a84c56c14bdaae5e81"

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import $ from "jquery";
 import mainLogo from '../images/taylor-dunworth-logo.svg';
 import horizontalLogo from '../images/taylor-dunworth-logo-horizontal.svg';
 import pdf from '../images/TaylorDunworth-Resume.pdf';
